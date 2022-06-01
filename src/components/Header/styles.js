@@ -14,8 +14,17 @@ export const Container = styled.header`
   
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 64px;
 
-  padding: 0 80px;
+  padding: 0 124px;
+
+  > h1{
+    color: ${({ theme }) => theme.COLORS.PINK};
+
+  }
+
+  
 
 `;
 
@@ -37,18 +46,28 @@ align-items: center;
   display: flex;
   flex-direction: column;
   line-height: 24px;
-  margin-left: 16px;
+  margin-right: 16px;
+  
+  align-items: flex-end;
+  width: 125px;
+
+ 
 
   span{
   font-size: 14px;
-  color: ${({ theme }) => theme.COLORS.GRAY_100};
+  color: ${({ theme }) => theme.COLORS.GRAY_300};
+  align-items: right;
+  justify-content: right;
+  
   };
 }
 
  strong{
 
-font-size:18px;
+font-size:16px;
 color: ${({ theme }) => theme.COLORS.GRAY_100};
+align-items: right;
+justify-content: right;
 }
 `;
 
@@ -58,7 +77,7 @@ border:none;
 background: none;
 
 > svg{
-  color: ${({ theme }) => theme.COLORS.GRAY_100};
+  color: ${({ theme }) => theme.COLORS.DARKPINK};
   font-size: 36px;
 }
 

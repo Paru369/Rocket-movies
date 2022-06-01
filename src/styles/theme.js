@@ -6,8 +6,10 @@ export default {
 
     WHITE: "#F4EDE8",
     ORANGE: "#FF9000",
+    PINK: "#FF859B",
+    DARKPINK: "hsba(349, 48%, 100%, 0.05)",
 
-    GRAY_100: "#999591",
+    GRAY_100: "hsba(273, 5%, 81%, 1)",
     GRAY_300: "#666360",
 
     RED: "#FF002E"

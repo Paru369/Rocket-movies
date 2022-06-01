@@ -25,7 +25,7 @@ padding-right: 16px;
 }
 
 .button-add{
-  color: ${({ theme }) => theme.COLORS.ORANGE};
+  color: ${({ theme }) => theme.COLORS.PINK};
 }
 
 

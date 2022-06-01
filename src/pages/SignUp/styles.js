@@ -15,12 +15,12 @@ padding: 0 136px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
-text-align: center;
+align-items: left;
+text-align: left;
 
 >h1{
   font-size: 48px;
-  color: ${({ theme }) => theme.COLORS.ORANGE};
+  color: ${({ theme }) => theme.COLORS.PINK};
 
 }
 
@@ -38,9 +38,11 @@ text-align: center;
 }
 
 >a{
-  margin-top: 124px;
-  color: ${({ theme }) => theme.COLORS.ORANGE};
-
+  margin-top: 42px;
+  color: ${({ theme }) => theme.COLORS.PINK};
+  justify-content: center;
+  align-items: center;
+  display: flex;
 };
 
 

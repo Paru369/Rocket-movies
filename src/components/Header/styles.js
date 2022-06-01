@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 export const Container = styled.header`
   grid-area: header;
 
-  height: 105px;
+  height: 116px;
   width: 100%;
 
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+  border-bottom-color: ${({ theme }) => theme.COLORS.GRAY_300};
   
   display: flex;
   justify-content: space-between;
@@ -55,7 +55,7 @@ align-items: center;
 
   span{
   font-size: 14px;
-  color: ${({ theme }) => theme.COLORS.GRAY_300};
+  color: ${({ theme }) => theme.COLORS.GRAY_100};
   align-items: right;
   justify-content: right;
   

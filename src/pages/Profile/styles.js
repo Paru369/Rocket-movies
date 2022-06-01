@@ -5,7 +5,8 @@ export const Container = styled.div`
 > header{
   width: 100%;
   height: 144px;
-  background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+  background: rgba(255, 133, 155, 0.05)
+;
 
 display: flex;
 align-items: center;
@@ -53,7 +54,7 @@ border-radius: 99px;
   width: 48px;
   height: 48px;
 
-  background-color : ${({ theme }) => theme.COLORS.ORANGE};
+  background-color : ${({ theme }) => theme.COLORS.PINK};
   border-radius: 99px;
   display: flex;
   align-items: center;

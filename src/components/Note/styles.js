@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.button`
 
 width: 100%;
-background-color: ${({ theme}) => theme.COLORS.BACKGROUND_700};
+background-color:rgba(255, 133, 155, 0.05)  ;
 
 border: none;
 border-radius: 10px;
@@ -20,6 +20,19 @@ margin-bottom: 16px;
   color: ${({ theme }) => theme.COLORS.WHITE};
 
 };
+
+>p{
+
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #999591;
+  text-align: justify;
+  margin-top: 15px;
+  height: 40px;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}
+
 
 > footer{
 

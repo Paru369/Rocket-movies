@@ -5,8 +5,8 @@ export const Container = styled.div`
 width: 100%;
 display: flex;
 align-items: center;
-background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
-color: ${({ theme }) => theme.COLORS.GRAY_300};
+background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+color: ${({ theme }) => theme.COLORS.GRAY_900};
 
 margin-bottom: 8px;
 border-radius: 10px;

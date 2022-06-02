@@ -37,7 +37,7 @@ export function Details(){
            {id:'2', name:'Familia'}
            ],
            rating:'3',
-           autor: 'Rodrigo Pereira',
+           autor: 'Paulo Pinheiro',
            created_at: '23/05/2022 ás 08:00'
            }} />
    

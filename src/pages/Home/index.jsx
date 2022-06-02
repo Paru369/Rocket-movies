@@ -17,7 +17,7 @@ export function Home(){
 
     <header>
 
-    <Section title = "Meus Filmes"/> <Button title="+ Adicionar filme"/>
+    <Section title = "Meus Filmes"/> <Link to="/new"><Button title="+ Adicionar filme"/></Link>
 
      </header>
 

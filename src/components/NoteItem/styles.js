@@ -5,12 +5,13 @@ export const Container = styled.div`
 display: flex;
 align-items: center;
 
-background-color: ${({ theme, isNew}) => isNew ? "transparente" : theme.COLORS.BACKGROUND_900};
+background-color: ${({ theme, isNew}) => isNew ? "transparente" : theme.COLORS.BACKGROUND_700};
 color: ${({ theme }) => theme.COLORS.GRAY_300 };
 
 border : ${({ theme, isNew}) => isNew ? `3px dashed ${ theme.COLORS.GRAY_300 }` : 'none'};
 
-margin-bottom: 8px;
+
+max-width:180px;
 border-radius: 10px;
 padding-right: 16px;
 
@@ -33,7 +34,7 @@ padding-right: 16px;
 >input{
 
   height: 56px;
-  width: 100%;
+  width:  100%;
   padding: 12px;
   color: ${({ theme }) => theme.COLORS.WHITE};
   background: transparent;

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 export const Container = styled.header`
   grid-area: header;
+  color: ${({ theme }) => theme.COLORS.PINK};
 
   height: 116px;
   width: 100%;

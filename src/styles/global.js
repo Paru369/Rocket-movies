@@ -9,7 +9,7 @@ export default createGlobalStyle`
 }
 
 body{
-  background-color: ${({theme }) => theme.COLORS.BACKGROUND_800};
+  background-color: ${({theme }) => theme.COLORS.BACKGROUND_900};
   color: ${({theme }) => theme.COLORS.WHITE};
 
   --webkit-font-smoothing: antialiased;
@@ -37,6 +37,22 @@ button:hover, a:hover{
   filter: brightness(0.9);
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  
+  border-radius: 10px;
+  background: #000010;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  ${({ theme }) => theme.COLORS.PINK};
+  border-radius: 3px;
+}
 
 `

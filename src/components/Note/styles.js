@@ -21,6 +21,10 @@ margin-bottom: 16px;
 
 };
 
+>header{
+  display: flex;
+}
+
 >p{
 
   font-size: 16px;

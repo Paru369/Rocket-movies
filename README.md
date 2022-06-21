@@ -3,7 +3,7 @@
 
 
 
-<img height="300px" src="./assets/Screenshot.png"> 
+<img height="300px" src="./src/assets/Screenshot.png"> 
 
 
 
